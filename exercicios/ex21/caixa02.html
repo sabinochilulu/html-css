@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+          background-color: white;
+          padding: 10px;
+          margin: 10px;  
+          border-radius: 10px 0px;
+          box-shadow: 4px 4px 9px 0px black;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+        footer>p{
+          margin: 0px;
+        }
+        nav{
+            background-color: rgb(99, 98, 98);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.5);
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav>a:hover{
+            text-decoration: underline;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article> aside{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Menu Site</h1>
+      <nav>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assunto">
+    <p>Esporte Politic Tecnologia</p>
+      </section>
+      <section id="noticia">
+        <article>
+            <h2>Noticias sobre Angola</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, facilis! <br> Eum quaerat accusamus delectus. Dolore, odio nesciunt! Eos, autem quasi deleniti voluptas <br>quidem ipsa inventore aut asperiores, dolorem eaque perspiciatis.</p>
+          <aside>
+            <p>Artigo esrito pelo Sabino Tch. Chilulu</p>
+          </aside>
+        </article>
+        <article>
+
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Desemvolvida pelo Sabino CHILULU</p>
+    </footer>
+</body>
+</html>
