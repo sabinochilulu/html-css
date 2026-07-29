@@ -1,4 +1,6 @@
 # html-css
 Curso HTM5 e CSS3
 
-Eatou aprendendo a criar sites e agora vou gerenciar os meus repositorios
+Estou aprendendo a criar sites e agora vou gerenciar os meus repositorios
+
+<a href="https://sabinochilulu.github.io/html-css/exercicios/ex001/index.html">Executar o exercicio 001</a>
